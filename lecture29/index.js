@@ -153,7 +153,7 @@ let words = sentence.split('\\');
 console.log(words);
 
 
-console.log(words.join('_'));
+console.log(words.join('-'));
 
 
 

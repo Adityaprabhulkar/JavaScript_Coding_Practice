@@ -9,6 +9,12 @@
 //     }
 // };
 
+
+// for(let key in obj) {
+//     console.log(key, " ", obj[key]);
+    
+// }
+
 // console.log(obj);
 // obj.greet()
 
@@ -131,23 +137,56 @@
 // console.log(result)
 
 
-let arr = [ 10,20,30];
+// let arr = [ 10,20,30];
 
 
-let length = arr.length;
-console.log("length: ", length);
+// let length = arr.length;
+// console.log("length: ", length);
 
 
-for(let index = 0; index <length; index++) {
-    console.log(arr[index]);
+// for(let index = 0; index <length; index++) {
+//     console.log(arr[index]);
     
-}
+// }
+
+// let arr = [ 10,20,30];
 
 
 // arr.forEach((value, index) => {
 //     console.log("number: ", value, "Index: ", index);
     
 // })
+
+
+// let arr = [10, 20, 30, 40, 50];
+
+// for(let value of arr) {
+//     console.log(value);
+    
+// }
+
+
+// let fullName = "Aditya";
+
+// for(let char of fullName) {
+//     console.log(char[2]);
+    
+// }
+
+let arr = [10, 20, 30, 40, 50];
+
+let getSum = (arr) => {
+    let sum = 0;
+    arr.forEach((value) => {
+        sum = sum +value;
+    })
+
+    return sum;
+}
+
+let totalSum = getSum(arr);
+console.log(totalSum);
+
 
 
 
